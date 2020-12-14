@@ -10,7 +10,7 @@
   },
   "rules": {
     "no-await-in-loop": "error",
-    "no-console": ["error", { "allow": ["warn", "error"] }],
+    "no-console": ["error", { "allow": ["warn", "error", "time", "timeEnd"] }],
     "no-extra-parens": ["error", "all", { "nestedBinaryExpressions": false }],
     "no-loss-of-precision": "error",
     "no-promise-executor-return": "error",
@@ -57,7 +57,7 @@
     "no-lone-blocks": "error",
     "no-loop-func": "error",
     "no-magic-numbers": [ "error", { 
-        "ignore": [-1, 0, 1, 2, 3, 10, 100, 1000], 
+        "ignore": [-2, -1, 0, 1, 2, 3, 10, 100, 1000], 
         "ignoreArrayIndexes": true 
     }],
     "no-multi-spaces": "error",
@@ -88,7 +88,7 @@
     "prefer-regex-literals": "error",
     "radix": ["error", "as-needed"],
     "require-await": "off",
-    "require-unicode-regexp": "error",
+    "require-unicode-regexp": "off",
     "vars-on-top": "off",
     "wrap-iife": "off",
     "yoda": "error",
